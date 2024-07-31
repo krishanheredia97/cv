@@ -1,0 +1,41 @@
+{
+    "id": "project-educational-rpg-machine-learning",
+    "modalTitle": "Educational RPG",
+    "category": {
+      "name": "Project",
+      "color": "#00CED1"
+    },
+    "status": {
+      "code": "ongoing",
+      "text": "In Development"
+    },
+    "featured": true,
+    "content": {
+      "title": "Educational RPG to Teach Machine Learning",
+      "description": "This innovative educational Role-Playing Game (RPG) seamlessly integrates learning and gaming to teach Machine Learning concepts. Set aboard the USS Odyssey, players embark on a cosmic journey, facing challenges that blend educational content with engaging gameplay. The game incorporates three main educational segments: vector navigation through an asteroid field, planetary cartography using vector norms, and a machine learning challenge to identify plants and cure a mysterious illness. Players progress from Ensigns to higher ranks by earning XP, Tera (in-game currency), and Honor points through various learning activities. The game features an upgradable AI companion and emphasizes collaborative learning through peer tutoring and project collaboration. This project serves as a minimum viable product (MVP) to demonstrate the core mechanics and educational potential of gamified learning in STEM fields."
+    },
+    "cta": {
+      "text": "Read Full Project Description",
+      "link": "https://krishanheredia.com/educational-rpg-to-teach-machine-learning/"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-users",
+        "title": "Authors",
+        "content": "Heredia, K., Macintosh, A. & Uriostegui, J."
+      },
+      {
+        "icon": "fas fa-graduation-cap",
+        "title": "Learning Focus",
+        "content": "Vectors, Vector Norms, Machine Learning"
+      },
+      {
+        "icon": "fas fa-gamepad",
+        "title": "Game Elements",
+        "content": "Character Progression, Multiple Point Systems, AI Companion"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

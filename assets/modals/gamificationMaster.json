@@ -1,0 +1,41 @@
+{
+    "id": "credential-masters-gamification-transmedia",
+    "modalTitle": "Master's in Gamification and Transmedia Narrative",
+    "category": {
+      "name": "Credential",
+      "color": "#FFD700"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Completed"
+    },
+    "featured": false,
+    "content": {
+      "title": "Master of Gamification and Transmedia Narrative",
+      "description": "I completed a remote Master's program in Gamification and Transmedia Narrative at IEBS, Spain (2021-2022). This intensive one-year program, under the direction of gamification expert Dr. Oscar Garcia Pañella, provided me with comprehensive knowledge in areas such as Motivational Design, Game Design, Storytelling, Playful Learning, and UX Design. I focused on merging storytelling and gamification to improve language learning, which I applied to my 'Academia Tutoros' project. The program also allowed me to develop 'Qumahe', a transmedia project. This master's degree has significantly enhanced my ability to apply gamification and transmedia storytelling principles to entrepreneurial and software development projects."
+    },
+    "cta": {
+      "text": "View Global Project (in Spanish)",
+      "link": "https://krishanheredia.com/wp-content/uploads/2024/04/Academia-Tutoros.pdf"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-graduation-cap",
+        "title": "Degree",
+        "content": "Master of Gamification and Transmedia Narrative"
+      },
+      {
+        "icon": "fas fa-book",
+        "title": "Key Courses",
+        "content": "Motivational Design, Game Design, Storytelling, Playful Learning, UX Design"
+      },
+      {
+        "icon": "fas fa-award",
+        "title": "Achievement",
+        "content": "50% scholarship recipient"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

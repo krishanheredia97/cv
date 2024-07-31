@@ -1,0 +1,41 @@
+{
+    "id": "credential-marihe-double-masters",
+    "modalTitle": "Erasmus Mundus Master in Research and Innovation in Higher Education (MARIHE)",
+    "category": {
+      "name": "Credential",
+      "color": "#FFD700"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Completed"
+    },
+    "featured": true,
+    "content": {
+      "title": "Double Master's Degree in Administrative and Educational Sciences (MARIHE)",
+      "description": "I completed the prestigious Erasmus Mundus Master in Research and Innovation in Higher Education (MARIHE), a highly mobile international program funded by the European Union. As one of only 20 recipients per year, I was awarded a full Erasmus Mundus scholarship of 38,000 euros. This intensive program spanned multiple countries and institutions, providing a comprehensive and diverse perspective on higher education systems worldwide. The program culminated in a double degree: a Master of Administrative Sciences from Tampere University, Finland, and a Master of Educational Sciences from Eötvös Loránd University, Hungary. A highlight of the program was a two-month study trip to Asia, including an internship at the rectorate office of the Thapar Institute of Engineering and Technology in India, one of the country's top 20 engineering institutes. This experience, along with a week in Japan, provided invaluable insights into diverse higher education systems and enhanced my skills in curricular design, leadership, assertive communication, and teamwork."
+    },
+    "cta": {
+      "text": "Learn More About MARIHE",
+      "link": "http://marihe.eu/index.php"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-graduation-cap",
+        "title": "Double Degree",
+        "content": "M.A. in Administrative Sciences (Finland) & M.A. in Educational Sciences (Hungary)"
+      },
+      {
+        "icon": "fas fa-globe-americas",
+        "title": "International Experience",
+        "content": "Studies in Austria, Finland, Hungary, India, and Japan"
+      },
+      {
+        "icon": "fas fa-award",
+        "title": "Scholarship",
+        "content": "Erasmus Mundus full scholarship (38,000 euros)"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

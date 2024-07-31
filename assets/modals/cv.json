@@ -1,0 +1,41 @@
+{
+    "id": "interactive-cv-portfolio",
+    "modalTitle": "Interactive CV",
+    "category": {
+      "name": "project",
+      "color": "#4CAF50"
+    },
+    "status": {
+      "code": "ongoing",
+      "text": "In Development"
+    },
+    "featured": true,
+    "content": {
+      "title": "Interactive CV Web Application",
+      "description": "Developed an innovative, web-based interactive CV/portfolio that visually represents my diverse skill set through orbiting bubbles. Each bubble symbolizes a key area of expertise: Entrepreneur, Educator, Writer, Game Designer, and Programmer. The application offers an engaging user experience with animated interactions, allowing visitors to explore my professional journey and accomplishments in a unique, memorable way."
+    },
+    "cta": {
+      "text": "Download my CV",
+      "link": "#"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-code",
+        "title": "Technologies Used",
+        "content": "HTML5, CSS3, JavaScript, SVG animations"
+      },
+      {
+        "icon": "fas fa-tasks",
+        "title": "Key Features",
+        "content": "Interactive bubbles, Dynamic content loading, Responsive design"
+      },
+      {
+        "icon": "fas fa-lightbulb",
+        "title": "Showcase",
+        "content": "Creative design skills, Technical proficiency, Multidisciplinary expertise"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

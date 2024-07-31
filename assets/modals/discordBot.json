@@ -1,0 +1,71 @@
+{
+  "id": "discord-bot-1",
+  "modalTitle": "Discord Bot",
+  "category": {
+    "name": "Project",
+    "color": "#4CAF50"
+  },
+  "status": {
+    "code": "ongoing",
+    "text": "In Development"
+  },
+  "featured": true,
+  "content": {
+    "title": "Automated Discord Server Setup and Interaction Bot",
+    "description": "This innovative Discord bot streamlines server setup and management processes. With a single command, it can populate a server with predefined roles, categories, and channels, saving administrators significant time and effort. The bot's capabilities extend beyond initial setup, offering interactive content deployment such as buttons and modals within channels. A key feature is its seamless integration with Firebase, enabling real-time data collection of user interactions from the moment the server is populated. This combination of automation, interactivity, and data management makes it an invaluable tool for Discord community managers and researchers alike."
+  },
+  "cta": {
+    "text": "Explore Source Code",
+    "link": "https://github.com/krishanheredia97/the_path"
+  },
+  "infoBoxes": [
+    {
+      "icon": "fas fa-code",
+      "title": "Technologies",
+      "content": "Discord.py, Firebase, Python, JSON"
+    },
+    {
+      "icon": "fas fa-cogs",
+      "title": "Key Features",
+      "content": "Server Automation, Interactive Content, Real-time Data Collection"
+    },
+    {
+      "icon": "fas fa-users",
+      "title": "Target Users",
+      "content": "Discord Admins, Community Managers, Researchers"
+    }
+  ],
+  "media": {
+    "hasMedia": true,
+    "items": [
+      {
+        "type": "image",
+        "order": 1,
+        "src": "assets/media/first.gif",
+        "alt": "Server Population Demo",
+        "text": "This GIF demonstrates the bot's primary function: populating a Discord server with predefined roles, categories, and channels using a single command. Watch as the server structure materializes instantly, showcasing the bot's efficiency in automating setup tasks."
+      },
+      {
+        "type": "image",
+        "order": 2,
+        "src": "assets/media/second.gif",
+        "alt": "Interactive Instructions",
+        "text": "Here, the bot is shown populating channels with interactive instructions. This feature enhances user engagement by providing clear, actionable guidance directly within the server, improving the onboarding experience for new members."
+      },
+      {
+        "type": "image",
+        "order": 3,
+        "src": "assets/media/third.gif",
+        "alt": "Interactive Buttons",
+        "text": "This GIF showcases the bot deploying interactive buttons in channels. "
+      },
+      {
+        "type": "image",
+        "order": 4,
+        "src": "assets/media/database.gif",
+        "alt": "Firebase Realtime Database immediate integration",
+        "text": "When users interact with these buttons, their inputs are immediately recorded in a Firebase Database, demonstrating the bot's capability for real-time data collection and analysis."
+      }
+    ]
+  }
+}

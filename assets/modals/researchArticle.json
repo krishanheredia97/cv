@@ -1,0 +1,65 @@
+{
+  "id": "research-article-1",
+  "modalTitle": "Research Article",
+  "category": {
+    "name": "Publication",
+    "color": "#ff6b6b"
+  },
+  "status": {
+    "code": "completed",
+    "text": "Published"
+  },
+  "featured": true,
+  "content": {
+    "title": "Beyond prestige: Seven criteria to assess global university rankings and their influence on higher education institutions",
+    "description": "Global rankings have become a world wide phenomenon in the past years. They allow for accountability and help various stakeholders make decisions regarding universities. This literature review explores 24 articles and follows an analytical framework composed of 7 criteria of assessment to determine the quality different global university rankings. This framework was developed by using the 5 indicators theorized by Dill & Soo (2005): validity, comprehensiveness, relevance, comprehensibility, and funcionality; as well as two new criteria (fairness and sustainability) conceptualized by the author, by drawing inspiration from the work of Carayannis & Campbell (2021). This comprehensive review not only identifies existing gaps in the literature but also proposes a future research agenda that will allow for a more nuanced understanding of the complex relationship between universities and global rankings, and hopefully inform future policies and practices in the higher education sector on a global scale. The conclusion of this paper is that global rankings carry several flaws in their design, they do not account for the contextual difficulties and needs of many countries and regions. Thus, rankings should be reconsidered by society and eventually intervened by experts, so as to allow the global higher education landscape to become more fair, diverse, and sustainable."
+  },
+  "cta": {
+    "text": "Read Full Paper",
+    "link": "https://rihe-journal.com/index.php/rihe/article/view/45"
+  },
+  "infoBoxes": [
+    {
+      "icon": "fas fa-tags",
+      "title": "Keywords",
+      "content": "higher education, tertiary education, global rankings, league tables, literature review, universities"
+    },
+    {
+      "icon": "fas fa-book",
+      "title": "Topic",
+      "content": "Higher Education Research"
+    },
+    {
+      "icon": "fas fa-journal-whills",
+      "title": "Journal",
+      "content": "Journal of Research and Innovation in Higher Education"
+    }
+  ],
+  "media": {
+    "hasMedia": true,
+    "items": [
+      {
+        "type": "image",
+        "order": 1,
+        "src": "C:/Users/danie/Downloads/modals/new instructions test/data/media/first.gif",
+        "alt": "Main functionality",
+        "text": "The bot is able to populate a server with predefined roles, categories and channels with a single command."
+      },
+      {
+        "type": "video",
+        "order": 2,
+        "src": "path/to/video1.mp4",
+        "poster": "path/to/video1-thumbnail.jpg",
+        "title": "Interview with lead researcher",
+        "text": "In this video, the lead researcher discusses the implications of the study on higher education policies."
+      },
+      {
+        "type": "image",
+        "order": 3,
+        "src": "path/to/image2.gif",
+        "alt": "Animated infographic of ranking criteria",
+        "text": "This animated infographic showcases the seven criteria used to assess global university rankings."
+      }
+    ]
+  }
+}

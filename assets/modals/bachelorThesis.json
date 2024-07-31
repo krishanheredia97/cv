@@ -1,0 +1,41 @@
+{
+    "id": "thesis-gamification-motivation-secondary-education",
+    "modalTitle": "Bachelor Thesis",
+    "category": {
+      "name": "Publication",
+      "color": "#ff6b6b"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Completed"
+    },
+    "featured": false,
+    "content": {
+      "title": "The influence of gamification on the motivation of secondary education students in learning the \"Reading Plan\" of the Spanish class",
+      "description": "This qualitative investigation/action study explores the impact of gamification on student motivation in secondary education, specifically focusing on the \"Reading Plan\" in Spanish classes. The research involved designing a gamified system using the Habitica mobile application and a students' reading journal. An experimental group of nine 8th and 9th grade students was compared to a control group of five 6th and 7th grade students. Data collection methods included semi-structured interviews, investigator field journals, and post-reading evaluations. The study found that gamification significantly increased student motivation towards the \"Reading Plan,\" contrasting with the predominantly negative experiences of the non-gamified control group. The research also classified students according to their motivation types, considering the influence of external factors such as gamification, institutional control, and personal situations. The findings demonstrate the positive impact of gamification on secondary education students' motivation towards reading, while also highlighting the potential negative effects of external influences on perceived motivation."
+    },
+    "cta": {
+      "text": "Read Full Thesis (in Spanish)",
+      "link": "https://krishanheredia.com/wp-content/uploads/2024/04/The-influence-of-gamification-on-the-motivation-of-secondary-education-students-in-learning-the-Reading-Plan-of-the-Spanish-class.pdf"
+    },
+    "infoBoxes": [
+      {
+            "icon": "fas fa-users",
+            "title": "Authors",
+            "content": "Heredia, K. & Fernández, S."
+      },
+      {
+        "icon": "fas fa-graduation-cap",
+        "title": "Degree",
+        "content": "Bachelor Thesis"
+      },
+      {
+        "icon": "fas fa-tags",
+        "title": "Keywords",
+        "content": "gamification, motivation, secondary education, reading, meaningful learning, self-determination theory"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

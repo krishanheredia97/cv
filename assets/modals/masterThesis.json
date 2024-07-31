@@ -1,0 +1,41 @@
+{
+    "id": "thesis-rpg-impact-higher-education",
+    "modalTitle": "Master Thesis",
+    "category": {
+      "name": "Publication",
+      "color": "#ff6b6b"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Completed"
+    },
+    "featured": false,
+    "content": {
+      "title": "The Impact of Role-Playing Games on Learning in Higher Education: A Systematic Literature Review",
+      "description": "This master thesis addresses a significant research gap in the field of educational technology by conducting a systematic literature review on the impact of Role-Playing Games (RPGs) in higher education. The study explores how RPGs, which combine the engaging elements of games and storytelling, influence learning outcomes in university settings. The study analyzes the cognitive, behavioral, and affective outcomes of using RPGs in higher education, providing valuable insights for educators, administrators, and policymakers. This comprehensive review contributes to the existing body of literature on gamification and storytelling in education, focusing specifically on the understudied area of RPGs in higher education contexts worldwide."
+    },
+    "cta": {
+      "text": "Download Full Thesis",
+      "link": "https://krishanheredia.com/wp-content/uploads/2024/04/Krishan-Heredia-The-Impact-of-Role-Playing-Games-on-Learning-in-Higher-Education-A-Systematic-Literature-Review_FINAL.pdf"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-graduation-cap",
+        "title": "Degree",
+        "content": "Master Thesis"
+      },
+      {
+        "icon": "fas fa-search",
+        "title": "Research Type",
+        "content": "Systematic Literature Review"
+      },
+      {
+        "icon": "fas fa-tags",
+        "title": "Keywords",
+        "content": "Role-Playing Games, Higher Education, Learning, Gamification, Storytelling"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

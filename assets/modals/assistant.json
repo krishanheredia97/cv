@@ -1,0 +1,46 @@
+{
+    "id": "experience-spanish-language-assistant-france",
+    "modalTitle": "Spanish Language Assistant in France",
+    "category": {
+      "name": "Experience",
+      "color": "#FF6347"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Completed"
+    },
+    "featured": false,
+    "content": {
+      "title": "Spanish Language Assistant at Two French Educational Institutions",
+      "description": "As part of the France Education International program, I served as a Spanish Language Assistant at two institutions in Agen, France: Collège Ducos du Hauron and Lycée Jean-Baptiste de Baudre. In this dual role, I designed, planned, and taught engaging learning experiences to enhance Spanish language acquisition, with a particular focus on spoken language interaction for French students of various age groups. This experience allowed me to adapt my teaching methods to different educational levels, from middle school to high school students. By implementing gamification techniques and creating interactive lesson plans, I fostered an enjoyable and effective learning environment that encouraged students to practice their Spanish skills confidently. This immersive experience not only improved my teaching abilities but also deepened my understanding of the French education system and facilitated cultural exchange between France and Spanish-speaking countries."
+    },
+    "cta": {
+      "text": "Learn More About France Education International",
+      "link": "https://www.france-education-international.fr/"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-school",
+        "title": "Institutions",
+        "content": "Collège Ducos du Hauron and Lycée Jean-Baptiste de Baudre"
+      },
+      {
+        "icon": "fas fa-chalkboard-teacher",
+        "title": "Teaching Focus",
+        "content": "Spoken language interaction for middle and high school students"
+      },
+      {
+        "icon": "fas fa-gamepad",
+        "title": "Methodology",
+        "content": "Gamification techniques for language learning"
+      },
+      {
+        "icon": "fas fa-calendar-alt",
+        "title": "Duration",
+        "content": "October 2021 - March 2022"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

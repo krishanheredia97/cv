@@ -1,0 +1,46 @@
+{
+    "id": "credential-literature-degree-and-exchange",
+    "modalTitle": "Bachelor's Degree in Literature and Spanish Language with International Exchange",
+    "category": {
+      "name": "Credential",
+      "color": "#FFD700"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Completed"
+    },
+    "featured": false,
+    "content": {
+      "title": "B.A. in Literature and Spanish Language with International Exchange Experience",
+      "description": "I earned my Bachelor of Arts Degree in Literature and Spanish Language from Universidad Industrial de Santander (2016-2021). During my studies, I had the opportunity to participate in an international exchange program at Université de Lille, France (2019). This combination of local and international education enriched my academic experience and broadened my cultural perspectives. My academic journey culminated in co-authoring a Bachelor's thesis that explored the intersection of gamification and student motivation in Spanish language education."
+    },
+    "cta": {
+      "text": "",
+      "link": ""
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-graduation-cap",
+        "title": "Degree",
+        "content": "B.A. in Literature and Spanish Language"
+      },
+      {
+        "icon": "fas fa-university",
+        "title": "Institutions",
+        "content": "Universidad Industrial de Santander & Université de Lille"
+      },
+      {
+        "icon": "fas fa-book",
+        "title": "Thesis",
+        "content": "Gamification's influence on student motivation in Spanish 'Reading Plan'"
+      },
+      {
+        "icon": "fas fa-calendar-alt",
+        "title": "Duration",
+        "content": "2016 - 2021 (including exchange in 2019)"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }

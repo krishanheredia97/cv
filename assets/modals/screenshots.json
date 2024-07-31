@@ -1,0 +1,50 @@
+{
+    "id": "custom-screenshot-capture-interface",
+    "modalTitle": "Customizable Screenshot Capture Tool for ML",
+    "category": {
+      "name": "Programming",
+      "color": "#00A86B"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Functional tool"
+    },
+    "featured": false,
+    "content": {
+      "title": "Python-based Screenshot Capture Interface for ML Image Collection",
+      "description": "Developed a custom screenshot capture interface using Python and Tkinter to streamline the process of gathering training images for machine learning models. This tool allows for capturing multiple screenshots of customizable pixel sizes, saving them with randomized filenames into a specified folder. It's particularly useful for automating image collection for game-related ML projects."
+    },
+    "cta": {
+      "text": "View Project Details",
+      "link": "#"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-code",
+        "title": "Technology",
+        "content": "Python, Tkinter"
+      },
+      {
+        "icon": "fas fa-cogs",
+        "title": "Key Features",
+        "content": "Customizable screenshot size, Random file naming, Hotkey for program termination"
+      },
+      {
+        "icon": "fas fa-robot",
+        "title": "Application",
+        "content": "ML image recognition, Game automation"
+      }
+    ],
+    "media": {
+        "hasMedia": true,
+        "items": [
+          {
+            "type": "image",
+            "order": 1,
+            "src": "data/media/screenshots.gif",
+            "alt": "GUI for taking multiple screenshots of a customizable pixel size",
+            "text": "This GIF demonstrates the program's ability to take screenshots anywhere in the screen based on a customizable capture size."
+          }
+        ]
+    }
+}

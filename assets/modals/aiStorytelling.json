@@ -1,0 +1,50 @@
+{
+  "id": "procedural-story-generation-algorithm",
+  "modalTitle": "AI-Generated Stories Algorithm",
+  "category": {
+    "name": "Project",
+    "color": "#4CAF50"
+  },
+  "status": {
+    "code": "ongoing",
+    "text": "Early development stage"
+  },
+  "featured": true,
+  "content": {
+    "title": "Innovative Procedural Story Generation Algorithm for Educational RPGs",
+    "description": "I'm developing a cutting-edge algorithm that combines linguistics, storytelling, and AI to procedurally generate interactive narratives for educational role-playing games. This project aims to empower educators by providing a tool to create engaging, customized learning experiences with minimal input. Currently in its early stages, the algorithm already demonstrates the ability to generate dynamic, context-sensitive dialogues within a basic story structure, adapting to the user's progress in the game."
+  },
+  "cta": {
+    "text": "Watch Demo Video",
+    "link": "https://www.youtube.com/watch?v=kjxLy3IT7-Q"
+  },
+  "infoBoxes": [
+    {
+      "icon": "fas fa-code",
+      "title": "Technology",
+      "content": "Python, JSON, AI integration"
+    },
+    {
+      "icon": "fas fa-lightbulb",
+      "title": "Key Features",
+      "content": "AI-generated dialogues, Dynamic story adaptation, Minimal user input required"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "title": "Development Stage",
+      "content": "Early MVP, Seeking funding for research expansion"
+    }
+  ],
+  "media": {
+    "hasMedia": true,
+    "items": [
+      {
+        "type": "video",
+        "order": 1,
+        "src": "https://www.youtube.com/embed/kjxLy3IT7-Q",
+        "alt": "AI-Generated Stories Algorithm Demo",
+        "text": "A demonstration of the innovative procedural story generation algorithm for educational RPGs."
+      }
+    ]
+  }
+}

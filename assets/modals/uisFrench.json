@@ -1,0 +1,41 @@
+{
+    "id": "experience-uis-french-teacher",
+    "modalTitle": "Auxiliary French Teacher at UIS",
+    "category": {
+      "name": "Experience",
+      "color": "#FF6347"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Completed"
+    },
+    "featured": false,
+    "content": {
+      "title": "Auxiliary French Teacher at Universidad Industrial de Santander",
+      "description": "As an Auxiliary French Teacher at Universidad Industrial de Santander in Colombia, I planned and taught virtual French classes to the general public as part of the university's extension education program. I focused on beginner-level French, employing conversational and meaningful learning approaches to engage young adult learners in a virtual environment."
+    },
+    "cta": {
+      "text": "",
+      "link": ""
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-chalkboard-teacher",
+        "title": "Course Level",
+        "content": "Beginner French for general public"
+      },
+      {
+        "icon": "fas fa-user-graduate",
+        "title": "Student Demographics",
+        "content": "Young adults, ages 21-28"
+      },
+      {
+        "icon": "fas fa-calendar-alt",
+        "title": "Duration",
+        "content": "January 2020 - December 2020"
+      }
+    ],
+    "media": {
+      "hasMedia": false
+    }
+  }
