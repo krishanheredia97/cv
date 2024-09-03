@@ -1,3 +1,6 @@
+let selectedField = null;
+let bubblePositions = [];
+
 function createBubble(data) {
     const bubble = document.createElement('div');
     bubble.className = 'bubble';
@@ -30,7 +33,7 @@ function createBubble(data) {
 function toggleBubble(bubble, data) {
     if (selectedField === data.name) {
         selectedField = null;
-        updateText("Default text", []);
+        updateText(portfolioData.defaultText, portfolioData.defaultStylingRules);
     } else {
         selectedField = data.name;
         updateText(data.text, data.stylingRules);

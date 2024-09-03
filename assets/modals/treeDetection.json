@@ -1,51 +1,50 @@
 {
-    "id": "runescape-tree-recognition-algorithm",
-    "modalTitle": "Game Tree Recognition Algorithm",
-    "category": {
-      "name": "Project",
-      "color": "#FF4500"
+  "id": "runescape-tree-recognition-algorithm",
+  "modalTitle": "Game Tree Recognition Algorithm",
+  "category": {
+    "name": "Project",
+    "color": "#00CED1"
+  },
+  "status": {
+    "code": "completed",
+    "text": "Functional algorithm"
+  },
+  "featured": false,
+  "content": {
+    "title": "Tree Recognition Algorithm",
+    "description": "Developed a highly accurate, real-time image recognition algorithm to identify tree canopies in the game RuneScape. This project served as an initial foray into image recognition. The algorithm successfully distinguishes tree canopies from other green elements in the game, highlighting them in real-time and providing clickable regions for interaction."
+  },
+  "cta": {
+    "text": "View Algorithm Demo",
+    "link": "#"
+  },
+  "infoBoxes": [
+    {
+      "icon": "fas fa-code",
+      "title": "Technology",
+      "content": "Python, Tkinter, PyAutoGUI, PIL, OpenCV, Git"
     },
-    "status": {
-      "code": "completed",
-      "text": "Functional algorithm"
+    {
+      "icon": "fas fa-tree",
+      "title": "Recognition",
+      "content": "All tree canopies, Distinct from grass and players"
     },
-    "featured": false,
-    "content": {
-      "title": "Python-based Image Recognition for Tree Canopies in RuneScape",
-      "description": "Developed a highly accurate, real-time image recognition algorithm to identify tree canopies in the game RuneScape. This project served as an initial foray into image recognition, demonstrating proficiency in image manipulation and computer vision techniques. The algorithm successfully distinguishes tree canopies from other green elements in the game, highlighting them in real-time and providing clickable regions for interaction."
-    },
-    "cta": {
-      "text": "View Algorithm Demo",
-      "link": "#"
-    },
-    "infoBoxes": [
-      {
-        "icon": "fas fa-code",
-        "title": "Technology",
-        "content": "Python, OpenCV, Tkinter"
-      },
-      {
-        "icon": "fas fa-tree",
-        "title": "Recognition",
-        "content": "All tree canopies, Distinct from grass and players"
-      },
-      {
-        "icon": "fas fa-cogs",
-        "title": "Features",
-        "content": "Real-time processing, Canopy highlighting, Clickable regions"
-      }
-    ],
-    "media": {
-        "hasMedia": true,
-        "items": [
-          {
-            "type": "image",
-            "order": 1,
-            "src": "data/media/treeDetection.gif",
-            "alt": "Tre detection algorithm demonstration",
-            "text": "Demonstration of the algorithm showing the game window and a duplicate window with highlighted tree canopies and their IDs"
-          }
-        ]
+    {
+      "icon": "fas fa-cogs",
+      "title": "Features",
+      "content": "Real-time processing, Canopy highlighting, Clickable regions"
     }
+  ],
+  "media": {
+      "hasMedia": true,
+      "items": [
+        {
+          "type": "video",
+          "order": 1,
+          "src": "https://www.youtube.com/embed/wOzeAVVxXlg",
+          "alt": "Tree Detection Algorithm Demonstration",
+          "text": "Demonstration of the algorithm showing the game window and a duplicate window with highlighted tree canopies and their IDs, showcasing real-time tree recognition in RuneScape."
+        }
+      ]
   }
-  
+}

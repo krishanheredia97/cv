@@ -33,7 +33,7 @@ function typeWriter(text, index = 0) {
         
         textContainer.innerHTML = generateStyledText(currentSubstring, currentStylingRules);
         
-        const totalDuration = 3000; // 3 seconds in milliseconds
+        const totalDuration = 1000; // 1 seconds in milliseconds
         const intervalDuration = totalDuration / text.length;
         typewriterInterval = setTimeout(() => typeWriter(text, nextIndex), intervalDuration);
     } else {

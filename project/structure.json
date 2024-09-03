@@ -1,0 +1,30 @@
+{
+    "files": [
+        ".gitignore",
+        "index.html"
+    ],
+    "directories": {
+        "scripts": {
+            "files": [
+                "bubbles.js",
+                "cv.js",
+                "data.js",
+                "main.js",
+                "modals.js",
+                "text.js",
+                "utils.js"
+            ]
+        },
+        "styles": {
+            "files": [
+                "bubbles.css",
+                "cv.css",
+                "main.css",
+                "modals.css",
+                "panel.css",
+                "text.css"
+            ]
+        },
+        "utils": {}
+    }
+}
