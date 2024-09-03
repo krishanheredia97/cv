@@ -269,14 +269,25 @@ h5 { font-size: 18px; margin: 10px 0; }
 @media (max-width: 768px) {
     .modal-content {
         width: 90%;
-        padding: 20px;
+        padding: 30px;
+        margin: 20px auto;
+        max-height: calc(100vh - 20px);
+        overflow-y: auto;
     }
 
     h2 { font-size: 24px; }
 
+    .close {
+        position: sticky;
+        top: 0;
+        right: 10px;
+        z-index: 1000;
+        background-color: #22223b42;
+        padding: 30px;
+    }
+
     .modal-header {
-        flex-direction: column;
-        align-items: flex-start;
+        padding-top: 30px;
     }
 
     .title-and-category {
