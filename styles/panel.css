@@ -43,7 +43,12 @@
     #side-panel {
         width: 100%;
         height: auto;
-        min-height: calc(100vh - 60px); /* Adjust based on your mobile header height */
+        min-height: calc(100vh - 50px); /* Adjust based on your mobile header height */
+    }
+
+    #mobile-header {
+        height: 50px; /* Set a fixed height for the mobile header */
+        overflow: hidden;
     }
 
     #side-panel .section-1,

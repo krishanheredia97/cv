@@ -128,17 +128,26 @@
 
     #mobile-header-content {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        padding: 10px 0;
+    }
+
+    #mobile-header-content::-webkit-scrollbar {
+        display: none; /* WebKit */
     }
 
     .mobile-bubble-title {
+        flex: 0 0 auto;
         padding: 10px 15px;
-        margin: 5px;
+        margin: 0 5px;
         border-radius: 20px;
         font-size: 14px;
         font-weight: bold;
         cursor: pointer;
+        white-space: nowrap;
     }
 }
