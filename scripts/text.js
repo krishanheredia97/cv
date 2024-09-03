@@ -1,6 +1,7 @@
 let currentText = "Default text";
 let currentStylingRules = []
 let typewriterInterval;
+let isTyping = false;
 
 function generateStyledText(text, stylingRules) {
     let styledText = text;
@@ -26,6 +27,7 @@ function handleWordClick(element, word) {
 }
 
 function typeWriter(text, index = 0) {
+    isTyping = true;
     const textContainer = document.getElementById('text-container');
     if (index < text.length) {
         let nextIndex = index + 1;
@@ -33,11 +35,21 @@ function typeWriter(text, index = 0) {
         
         textContainer.innerHTML = generateStyledText(currentSubstring, currentStylingRules);
         
-        const totalDuration = 500; // 1 seconds in milliseconds
+        const totalDuration = 1000; // 1 second in milliseconds
         const intervalDuration = totalDuration / text.length;
         typewriterInterval = setTimeout(() => typeWriter(text, nextIndex), intervalDuration);
     } else {
         clearTimeout(typewriterInterval);
+        isTyping = false;
+    }
+}
+
+function completeTextAnimation() {
+    if (isTyping) {
+        clearTimeout(typewriterInterval);
+        const textContainer = document.getElementById('text-container');
+        textContainer.innerHTML = generateStyledText(currentText, currentStylingRules);
+        isTyping = false;
     }
 }
 
@@ -55,6 +67,10 @@ function initializeText() {
     textContainer.id = 'text-container';
     document.querySelector('.section-2').appendChild(textContainer);
     updateText(portfolioData.defaultText, portfolioData.defaultStylingRules);
+
+    // Add click event listener to the side panel
+    const sidePanel = document.getElementById('side-panel');
+    sidePanel.addEventListener('click', completeTextAnimation);
 }
 
 document.addEventListener('DOMContentLoaded', initializeText);

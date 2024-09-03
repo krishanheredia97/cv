@@ -49,7 +49,7 @@ const softwareDevelopmentBubbles = [
         size: 115,
         text: "I've developed scripts using BeautifulSoup and Selenium to extract and analyze data from various websites.\n\nOne project involved scraping pages from a game's wiki page and organizing their information into markdown format for AI training purposes. \n\nI'm planning to expand my portfolio by creating a script to gather information on educational scholarships.",
         stylingRules: [
-            { phrase: 'RuneScape', class: 'project', modal: 'runescapeScraper' }
+            { phrase: 'BeautifulSoup', class: 'project', modal: 'runescapeScraper' }
         ]
     },
     {
