@@ -1,0 +1,55 @@
+{
+    "id": "web-scraping-game-information",
+    "modalTitle": "Web Scraping Game Information",
+    "category": {
+      "name": "Project",
+      "color": "#00CED1"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Functional scraping scripts"
+    },
+    "featured": true,
+    "content": {
+      "title": "Python-based Web Scraping for RuneScape Game Data",
+      "description": "Developed a set of Python scripts to efficiently scrape and process game information from RuneScape, including over 4000 item icons and wiki page content. This project showcases advanced web scraping techniques, data processing, and preparation for future applications. The scraped data serves as a foundation for other projects, including a flipping calculator for in-game investments. The scripts handle large-scale icon downloads with rate limiting and transform complex HTML content into structured markdown format, facilitating future AI training."
+    },
+    "cta": {
+      "text": "View Project Repository",
+      "link": "https://github.com/krishanheredia97/osrs"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-code",
+        "title": "Technologies",
+        "content": "Python, BeautifulSoup4, Requests, Git"
+      },
+      {
+        "icon": "fas fa-tasks",
+        "title": "Key Features",
+        "content": "Large-scale icon scraping, HTML content parsing, Data structuring for AI training"
+      },
+      {
+        "icon": "fas fa-sync",
+        "title": "Rate Limiting",
+        "content": "Implemented 1 request per second to avoid overloading servers"
+      },
+      {
+        "icon": "fas fa-project-diagram",
+        "title": "Related Projects",
+        "content": "Foundation for a RuneScape flipping calculator"
+      }
+    ],
+    "media": {
+        "hasMedia": true,
+        "items": [
+          {
+            "type": "video",
+            "order": 1,
+            "src": "https://www.youtube.com/embed/gb1G-w8F-B8",
+            "alt": "Web Scraping Game Information Demonstration",
+            "text": "This video demonstrates the web scraping scripts in action, showcasing the process of downloading game icons and parsing HTML content from RuneScape wiki pages for future use in projects and AI training."
+          }
+        ]
+    }
+}

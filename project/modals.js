@@ -3,8 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeButton = document.querySelector('.close');
     const seeMoreButton = document.querySelector('.see-more');
 
-    closeButton.addEventListener('click', closeModal);
-    seeMoreButton.addEventListener('click', toggleAbstract);
+    if (closeButton) {
+        closeButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            closeModal();
+        });
+    }
+
+    if (seeMoreButton) {
+        seeMoreButton.addEventListener('click', toggleAbstract);
+    }
 
     window.addEventListener('click', function(event) {
         if (event.target == document.getElementById('modal-container')) {
@@ -141,3 +150,6 @@ function toggleAbstract() {
         seeMoreButton.textContent = 'See more';
     }
 }
+
+// Export the closeModal function so it can be used in other files if needed
+window.closeModal = closeModal;

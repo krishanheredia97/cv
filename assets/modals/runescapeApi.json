@@ -1,0 +1,57 @@
+{
+    "id": "game-investing-api-calculator",
+    "modalTitle": "OSRS Flipping Calculator",
+    "category": {
+      "name": "Project",
+      "color": "#00CED1"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Functional API-based calculator"
+    },
+    "featured": true,
+    "content": {
+      "title": "RuneScape Investing API Calculator",
+      "description": "Developed a Flask-based interface that interacts with the Old School RuneScape (OSRS) real-time prices API. This calculator allows users to query the latest price information for in-game items, facilitating profitable buying and selling strategies. The project integrates web-scraped item icons with API data, presenting a user-friendly interface that displays crucial information such as instantaneous buy/sell prices, profit margins, ROI, and the recency of transactions. This tool streamlines the process of identifying lucrative in-game investment opportunities."
+    },
+    "cta": {
+      "text": "View Project Repository",
+      "link": "https://github.com/krishanheredia97/osrs"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-code",
+        "title": "Technologies",
+        "content": "Python, Flask, OSRS API, NumPy, Time, Typing, Math, Statistics, Collections"
+      },
+      {
+        "icon": "fas fa-table",
+        "title": "Key Features",
+        "content": "Real-time price tracking, Profit margin calculation, ROI analysis, Transaction recency display"
+      },
+      {
+        "icon": "fas fa-server",
+        "title": "Backend",
+        "content": "Utilizes various API endpoints for comprehensive market data"
+      }
+    ],
+    "media": {
+        "hasMedia": true,
+        "items": [
+          {
+            "type": "video",
+            "order": 1,
+            "src": "https://www.youtube.com/embed/bqE7h0aj8BI",
+            "alt": "Game Investing API Calculator Demonstration",
+            "text": "This video showcases the OSRS Active Flipping Calculator in action, demonstrating its ability to provide real-time market data and investment opportunities in the game."
+          },
+          {
+            "type": "image",
+            "order": 2,
+            "src": "/api/placeholder/800/450",
+            "alt": "OSRS Active Flipping Calculator Interface",
+            "text": "The interface of the OSRS Active Flipping Calculator, displaying item icons, names, buy/sell prices, margins, ROI, and transaction recency for various in-game items."
+          }
+        ]
+    }
+}

@@ -24,9 +24,9 @@ const softwareDevelopmentBubbles = [
         icon: "fa-robot",
         color: "#e74c3c",
         size: 110,
-        text: "I've automated several tasks in a game (RuneScape), which evolved into a comprehensive project with modular design and reusable components.\n\nBeyond gaming, I've automated web scraping tasks and developed scripts to streamline project setup processes. These projects showcase my ability to create efficient, reusable solutions for repetitive tasks.",
+        text: "I've created multiple task automations in a game (RuneScape), which evolved into a comprehensive project with modular design and reusable components.\n\nBeyond gaming, I've automated web scraping tasks and developed scripts to streamline project setup processes. These projects showcase my ability to create efficient, reusable solutions for repetitive tasks.",
         stylingRules: [
-            { phrase: 'automated', class: 'project', modal: 'runescapeBots' },
+            { phrase: 'task automations', class: 'featured', modal: 'runescapeBots' },
             { phrase: 'web scraping', class: 'project', modal: 'runescapeScraper' }
         ]
     },
@@ -35,7 +35,7 @@ const softwareDevelopmentBubbles = [
         icon: "fa-brain",
         color: "#9b59b6",
         size: 125,
-        text: "I've developed a sophisticated prompting strategy that has significantly increased my development productivity. Currently, I'm exploring RAG and vector databases to create custom AI tools. \n\nI'm working on an Educational Game for learning Machine Learning that teaches vector addition in Machine Learning through an interactive interface. \n\nI also created a script that uses computer vision to detect trees in a videogame.",
+        text: "I've developed a sophisticated prompting strategy that has significantly increased my development productivity. Currently, I'm exploring RAG and vector databases to create custom AI tools. \n\nI'm working on an Educational Game for teaching Machine Learning. \n\nI also created a script that uses computer vision to detect trees in a videogame.",
         stylingRules: [
             { phrase: 'Educational Game', class: 'project', modal: 'mlRpg' },
             { phrase: 'computer vision', class: 'project', modal: 'treeDetection' },
@@ -47,7 +47,7 @@ const softwareDevelopmentBubbles = [
         icon: "fa-spider",
         color: "#f39c12",
         size: 115,
-        text: "I've developed scripts using BeautifulSoup and Selenium to extract and analyze data from various websites.\n\nOne project involved scraping pages from a game's wiki page and organizing their information into markdown format for AI training purposes. \n\nI'm planning to expand my portfolio by creating a bot to gather information on educational scholarships.",
+        text: "I've developed scripts using BeautifulSoup and Selenium to extract and analyze data from various websites.\n\nOne project involved scraping pages from a game's wiki page and organizing their information into markdown format for AI training purposes. \n\nI'm planning to expand my portfolio by creating a script to gather information on educational scholarships.",
         stylingRules: [
             { phrase: 'RuneScape', class: 'project', modal: 'runescapeScraper' }
         ]
@@ -67,16 +67,17 @@ const softwareDevelopmentBubbles = [
         icon: "fa-laptop-code",
         color: "#34495e",
         size: 118,
-        text: "I've developed a Screenshot Application for capturing game elements with specific measurements, essential for template matching in automations or AI training. \n\nCurrently, I'm working on a Procedural Story Generation algorithm for educational role-playing games. This project aims to connect with the OpenAI API to generate stories based on various linguistic and narratological rules",
+        text: "I developed a complex Discord Bot that facilitates server creation and instant integration with a database. \n\nI've developed a Screenshot Application for capturing game elements with specific measurements, essential for template matching in automations or AI training. \n\nCurrently, I'm working on a Procedural Story Generation algorithm. This project aims to connect with the OpenAI API to generate stories based on various linguistic and narratological rules",
         stylingRules: [
             { phrase: 'Screenshot Application', class: 'project', modal: 'screenshots' },
-            { phrase: 'Procedural Story Generation', class: 'project', modal: 'aiStorytelling' }
+            { phrase: 'Procedural Story Generation', class: 'project', modal: 'aiStorytelling' },
+            { phrase: 'Discord Bot', class: 'featured', modal: 'discordBot' }
         ]
     }
 ];
 
 const portfolioData = {
-    "defaultText": "This interactive space showcases my projects and skills across various areas of software development.\n\nTo explore my work, click on the colorful bubbles. \n\nClick on the highlighted words to read more about a specific project.\n\nThe golden words are my featured projects.",
+    "defaultText": "Welcome to my interactive Developer Portfolio! \n\nClick on the colorful bubbles. \n\nThen click on the highlighted words to read more about a specific project.\n\nThe golden words are my featured projects. \n\nIf my work interests you, feel free to contact me at info@krishanheredia.com",
     "defaultStylingRules": [
         { phrase: 'golden', class: 'featured' },
         { phrase: 'highlighted', class: 'project' }

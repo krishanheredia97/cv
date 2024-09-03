@@ -126,7 +126,14 @@ function openModal() {
     const modal = document.getElementById('modal-container');
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
+    
+    // Reset the scroll position of the modal content
+    const modalContent = modal.querySelector('.modal-content');
+    if (modalContent) {
+        modalContent.scrollTop = 0;
+    }
 }
+
 
 function closeModal() {
     const modal = document.getElementById('modal-container');

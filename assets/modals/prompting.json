@@ -1,0 +1,50 @@
+{
+    "id": "ai-prompting-journey",
+    "modalTitle": "AI Prompting Evolution",
+    "category": {
+      "name": "Project",
+      "color": "#00CED1"
+    },
+    "status": {
+      "code": "ongoing",
+      "text": "Continuous improvement"
+    },
+    "featured": true,
+    "content": {
+      "title": "Journey of AI Prompting Mastery",
+      "description": "This video showcases a 6-month evolution in AI prompting techniques, from simple paragraph inputs to sophisticated JSON-structured prompts and custom Python utilities. The journey demonstrates a significant increase in efficiency and capability when working with AI, particularly for complex projects. Some of the key milestones I have discovered thus far include the importance of context, experimentation with various formatting techniques, and the development of custom tools for project structure management and AI interaction."
+    },
+    "cta": {
+      "text": "Watch AI Prompting Journey Video",
+      "link": "https://www.youtube.com/watch?v=xPGTV8IVZGw"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-chart-line",
+        "title": "Evolution Stages",
+        "content": "Simple paragraphs → Context-rich prompts → Markdown formatting → JSON structuring → Custom AI agents and utilities"
+      },
+      {
+        "icon": "fas fa-tools",
+        "title": "Key Tools",
+        "content": "Claude.ai, Custom Python scripts, JSON formatting"
+      },
+      {
+        "icon": "fas fa-lightbulb",
+        "title": "Major Breakthrough",
+        "content": "Development of custom files and Claude projects, resulting in 5x efficiency increase even for complex projects"
+      }
+    ],
+    "media": {
+        "hasMedia": true,
+        "items": [
+          {
+            "type": "video",
+            "order": 1,
+            "src": "https://www.youtube.com/embed/xPGTV8IVZGw",
+            "alt": "AI Prompting Journey Demonstration",
+            "text": "This video showcases the evolution of AI prompting techniques over 6 months, demonstrating increased efficiency and capability in working with AI for complex projects."
+          }
+        ]
+    }
+}

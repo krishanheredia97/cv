@@ -1,0 +1,55 @@
+{
+    "id": "runescape-automation-bots",
+    "modalTitle": "RuneScape Automation Bots",
+    "category": {
+      "name": "Project",
+      "color": "#00CED1"
+    },
+    "status": {
+      "code": "completed",
+      "text": "Functional set of bots"
+    },
+    "featured": true,
+    "content": {
+      "title": "Python-based Automation Bots for RuneScape",
+      "description": "Developed a set of automation bots for the video game RuneScape. This project evolved into a complex, modularized system with multiple utility files, enabling rapid development of new bots. The bots utilize visual recognition techniques and simulate mouse and keyboard actions to automate various in-game tasks. A key feature is the Discord integration, allowing remote start, stop, and monitoring capabilities, enhancing the project's versatility and user control."
+    },
+    "cta": {
+      "text": "View Project Repository",
+      "link": "https://github.com/krishanheredia97/osrs"
+    },
+    "infoBoxes": [
+      {
+        "icon": "fas fa-code",
+        "title": "Technologies",
+        "content": "Python, Tkinter, PyAutoGUI, Pynput, PIL, OpenCV, Asyncio, Git"
+      },
+      {
+        "icon": "fas fa-cogs",
+        "title": "Key Features",
+        "content": "Visual recognition, Mouse/keyboard simulation, Modular design, Discord integration"
+      },
+      {
+        "icon": "fas fa-bolt",
+        "title": "Efficiency",
+        "content": "Rapid bot development using custom utility files"
+      },
+      {
+        "icon": "fas fa-desktop",
+        "title": "Remote Control",
+        "content": "Start, stop, and monitor bots via Discord"
+      }
+    ],
+    "media": {
+        "hasMedia": true,
+        "items": [
+          {
+            "type": "video",
+            "order": 1,
+            "src": "https://www.youtube.com/embed/Sd6CKmJvtyg",
+            "alt": "RuneScape Automation Bots Demonstration",
+            "text": "This video demonstrates one of the RuneScape bots in action, showcasing its ability to automate in-game tasks using visual recognition and simulated inputs, as well as its Discord integration for remote control."
+          }
+        ]
+    }
+}
