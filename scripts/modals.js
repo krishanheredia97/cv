@@ -139,7 +139,10 @@ function closeModal() {
     const modal = document.getElementById('modal-container');
     modal.style.display = 'none';
     document.body.style.overflow = 'auto';
-}
+  }
+  
+  // Make sure this function is available globally
+  window.closeModal = closeModal;
 
 function toggleAbstract() {
     const modal = document.getElementById('modal-container');

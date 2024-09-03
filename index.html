@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishan's Portfolio</title>
+    <title>Krishan Heredia - Interactive Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/panel.css">
@@ -11,16 +12,13 @@
     <link rel="stylesheet" href="styles/text.css">
     <link rel="stylesheet" href="styles/cv.css">
     <link rel="stylesheet" href="styles/modals.css">
-    <script src="scripts/data.js" defer></script>
-    <script src="scripts/utils.js" defer></script>
-    <script src="scripts/bubbles.js" defer></script>
-    <script src="scripts/text.js" defer></script>
-    <script src="scripts/cv.js" defer></script>
-    <script src="scripts/main.js" defer></script>
-    <script src="scripts/modals.js" defer></script>
 </head>
 <body>
     <div id="portfolio">
+        <div id="mobile-header" class="mobile-only">
+            <!-- Mobile header bubbles will be added here dynamically -->
+        </div>
+
         <div id="side-panel">
             <div class="section-1">
                 <h1>Hi, I'm Krishan</h1>
@@ -33,6 +31,7 @@
                 <div id="cv-button-container"></div>
             </div>
         </div>
+
         <div id="bubble-container">
             <div id="central-bubble">
                 <img src="assets/pic.png" alt="Krishan's profile picture">
@@ -40,20 +39,19 @@
         </div>
     </div>
 
-    <!-- Modal structure -->
     <div id="modal-container" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="modal-header">
                 <div class="title-and-category">
-                    <h2 class="modal-title"></h2>
+                    <h2 id="modal-title" class="modal-title"></h2>
                     <span class="category-tag"></span>
                 </div>
                 <span class="status"></span>
                 <span class="featured-indicator">FEATURED</span>
             </div>
             <div class="modal-body">
-                <h3 class="content-title"></h3>
+                <h3 id="content-title" class="content-title"></h3>
                 <div class="abstract">
                     <div class="abstract-preview"></div>
                     <div class="abstract-full"></div>
@@ -65,5 +63,13 @@
             </div>
         </div>
     </div>
+
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/bubbles.js"></script>
+    <script src="scripts/text.js"></script>
+    <script src="scripts/cv.js"></script>
+    <script src="scripts/modals.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

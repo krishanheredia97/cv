@@ -2,6 +2,10 @@
     width: 66.67%;
     height: 100%;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #central-bubble {
@@ -9,8 +13,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
+    width: 20vmin;
+    height: 20vmin;
+    max-width: 200px;
+    max-height: 200px;
     background-color: #f5e6d3;
     border-radius: 50%;
     display: flex;
@@ -35,6 +41,12 @@
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s, filter 0.3s;
     font-family: 'Montserrat', sans-serif;
+    width: 15vmin;
+    height: 15vmin;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 80px;
+    min-height: 80px;
 }
 
 .bubble:hover {
@@ -51,11 +63,57 @@
 }
 
 .bubble-icon {
-    font-size: 24px;
+    font-size: calc(1vmin + 10px);
     margin-bottom: 5px;
 }
 
 .bubble-title {
-    font-size: 14px;
+    font-size: calc(0.8vmin + 8px);
     font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    #bubble-container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    #central-bubble {
+        position: static;
+        transform: none;
+        margin: 0 auto 20px;
+    }
+
+    .bubble {
+        position: static;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #bubble-container {
+        display: none;
+    }
+
+    /* Add styles for mobile header bubbles here */
+    #mobile-header-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .mobile-bubble-title {
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+    .bubble-icon {
+        display: none;
+    }
 }

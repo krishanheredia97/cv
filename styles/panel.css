@@ -39,4 +39,29 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    #side-panel {
+        width: 100%;
+        height: auto;
+        min-height: calc(100vh - 60px); /* Adjust based on your mobile header height */
+    }
 
+    #side-panel .section-1,
+    #side-panel .section-2,
+    #side-panel .section-3 {
+        height: auto;
+        padding: 20px;
+    }
+
+    #side-panel .section-1 h1 {
+        font-size: 2em;
+    }
+
+    #side-panel .section-1 p {
+        font-size: 1.2em;
+    }
+
+    #side-panel .section-2 {
+        flex-grow: 1;
+    }
+}

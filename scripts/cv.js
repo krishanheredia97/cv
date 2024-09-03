@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cvButton.textContent = 'Download my CV';
 
     cvButton.addEventListener('click', () => {
-        // Replace this with the actual download link when you have it
-        console.log('CV download button clicked');
-        // window.open('path/to/your/cv.pdf', '_blank');
+        window.open('https://krishanheredia.com/wp-content/uploads/2024/09/CV-Krishan-Heredia.pdf', '_blank');
     });
 
     cvButtonContainer.appendChild(cvButton);
