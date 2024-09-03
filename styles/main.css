@@ -43,6 +43,33 @@ body {
     object-fit: cover;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    #portfolio {
+        flex-direction: row;
+    }
+    
+    #side-panel {
+        width: 55%;
+        height: 100vh;
+        overflow-y: auto;
+    }
+    
+    #bubble-container {
+        width: 45%;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+        padding: 20px 0;
+    }
+    
+    #central-bubble {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     #portfolio {
         flex-direction: column;

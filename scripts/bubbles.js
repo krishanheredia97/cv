@@ -54,11 +54,8 @@ function toggleBubble(element, data) {
         lastClickedBubble = element;
     }
     
-    if (isMobile) {
-        updateMobileHeaderDisplay();
-    } else {
-        updateBubbleDisplay();
-    }
+    updateBubbleDisplay();
+    updateMobileHeaderDisplay();
 }
 
 function updateMobileHeaderDisplay() {
@@ -91,13 +88,22 @@ function updateBubbleDisplay() {
 }
 
 function positionBubble(bubble, angle, distance) {
-    const portfolioRect = document.getElementById('bubble-container').getBoundingClientRect();
-    const centerX = portfolioRect.width / 2;
-    const centerY = portfolioRect.height / 2;
-    const bubbleRect = bubble.getBoundingClientRect();
-    const position = calculatePosition(angle, distance, centerX, centerY, bubbleRect.width, bubbleRect.height);
-    bubble.style.left = `${position.x}px`;
-    bubble.style.top = `${position.y}px`;
+    if (window.innerWidth > 768 && window.innerWidth <= 1024) {
+        // Tablet view: position bubbles vertically
+        bubble.style.position = 'static';
+        bubble.style.transform = 'none';
+    } else if (window.innerWidth > 1024) {
+        // Desktop view: original positioning
+        const portfolioRect = document.getElementById('bubble-container').getBoundingClientRect();
+        const centerX = portfolioRect.width / 2;
+        const centerY = portfolioRect.height / 2;
+        const bubbleRect = bubble.getBoundingClientRect();
+        const position = calculatePosition(angle, distance, centerX, centerY, bubbleRect.width, bubbleRect.height);
+        bubble.style.position = 'absolute';
+        bubble.style.left = `${position.x}px`;
+        bubble.style.top = `${position.y}px`;
+        bubble.style.transform = 'none';
+    }
 }
 
 function calculateDistance(baseDistance, time, index) {
@@ -108,6 +114,8 @@ function calculateDistance(baseDistance, time, index) {
 }
 
 function animateBubbles() {
+    if (window.innerWidth <= 1024) return; // Don't animate for tablet and mobile views
+
     const bubbles = document.querySelectorAll('.bubble');
     bubbles.forEach((bubble, index) => {
         const angle = calculateAngle(index, bubbles.length);
@@ -121,11 +129,24 @@ function animateBubbles() {
 
 function initializeBubbles() {
     const bubbleContainer = document.getElementById('bubble-container');
+    bubbleContainer.innerHTML = ''; // Clear existing bubbles
+
+    if (window.innerWidth > 1024) {
+        // Desktop view
+        const centralBubble = document.createElement('div');
+        centralBubble.id = 'central-bubble';
+        centralBubble.innerHTML = '<img src="assets/pic.png" alt="Krishan\'s profile picture">';
+        bubbleContainer.appendChild(centralBubble);
+    }
+
     portfolioData.fields.forEach(data => {
         const bubble = createBubble(data);
         bubbleContainer.appendChild(bubble);
     });
-    animateBubbles();
+
+    if (window.innerWidth > 1024) {
+        animateBubbles();
+    }
 }
 
 function createMobileHeaderBubbles() {
