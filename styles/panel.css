@@ -43,12 +43,16 @@
     #side-panel {
         width: 100%;
         height: auto;
-        min-height: calc(100vh - 50px); /* Adjust based on your mobile header height */
+        min-height: 100vh;
+        overflow-y: auto;
+        padding-bottom: 20px;
     }
 
     #mobile-header {
-        height: 50px; /* Set a fixed height for the mobile header */
-        overflow: hidden;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #1a1a2e;
     }
 
     #side-panel .section-1,
@@ -58,15 +62,23 @@
         padding: 20px;
     }
 
+    #side-panel .section-1 {
+        padding-top: 60px; /* Add top padding to account for the sticky header */
+    }
+
     #side-panel .section-1 h1 {
         font-size: 2em;
+        word-wrap: break-word;
+        margin-top: 0; /* Ensure no extra space at the top */
     }
 
     #side-panel .section-1 p {
         font-size: 1.2em;
+        word-wrap: break-word;
     }
 
     #side-panel .section-2 {
         flex-grow: 1;
+        overflow-y: visible;
     }
 }

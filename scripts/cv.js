@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cvButton = document.createElement('button');
     cvButton.className = 'cv-download-button';
-    cvButton.textContent = 'Download my CV';
+    cvButton.textContent = 'Download my Resume';
 
     cvButton.addEventListener('click', () => {
         window.open('https://krishanheredia.com/wp-content/uploads/2024/09/CV-Krishan-Heredia.pdf', '_blank');

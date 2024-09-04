@@ -35,27 +35,33 @@ function handleResize() {
     const bubbleContainer = document.getElementById('bubble-container');
     const centralBubble = document.getElementById('central-bubble');
     const sidePanel = document.getElementById('side-panel');
+    const mobileHeader = document.getElementById('mobile-header');
     
     if (isMobile) {
         createMobileHeaderBubbles();
         if (bubbleContainer) bubbleContainer.style.display = 'none';
         if (centralBubble) centralBubble.style.display = 'none';
-        if (sidePanel) sidePanel.style.width = '100%';
+        if (sidePanel) {
+            sidePanel.style.width = '100%';
+            sidePanel.style.height = 'auto';
+            sidePanel.style.minHeight = 'calc(100vh - 60px)'; // Adjust based on header height
+            sidePanel.style.overflowY = 'visible';
+        }
+        if (mobileHeader) {
+            mobileHeader.style.display = 'block';
+            // Ensure the portfolio content is pushed down
+            document.getElementById('portfolio').style.paddingTop = '60px'; // Adjust based on header height
+        }
     } else {
         initializeBubbles();
-        bubbleContainer.style.display = 'flex';
-        if (isTablet) {
-            if (centralBubble) centralBubble.style.display = 'none';
-            if (sidePanel) sidePanel.style.width = '60%';
-            if (bubbleContainer) bubbleContainer.style.width = '40%';
-        } else {
-            if (centralBubble) centralBubble.style.display = 'block';
-            if (sidePanel) sidePanel.style.width = '33.33%';
-            if (bubbleContainer) bubbleContainer.style.width = '66.67%';
-        }
+        if (bubbleContainer) bubbleContainer.style.display = 'flex';
+        if (mobileHeader) mobileHeader.style.display = 'none';
+        document.getElementById('portfolio').style.paddingTop = '0';
+        // ... rest of the desktop/tablet layout logic ...
     }
     
     updateBubbleDisplay();
 }
 
+window.addEventListener('load', handleResize);
 window.addEventListener('resize', handleResize);
